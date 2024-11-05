@@ -66,7 +66,6 @@ while True:
                                     exit(random.randint(-1000000000000000000, 1000000000000000))
                                 print("YOU FOOL YOU DUMBBUTT YOU ABSOLUTE MORON YOU PICKED THE ONE OPTION YOU SHOULDNT HAVE NOW SUFFER IN DEBT FOR YOU HAVE NO MONEY")
                                 print(f"also no money is coming out of the atm because you need to already pay it back alont with {temp*19} usd")
-                                openingbalance[i] = openingbalance[i] - temp
                                 print("also we will be taking out", openingbalance[i], "as paymeny for this excusite service")
                                 openingbalance[i] = 0
                             elif moneytype == 2:
@@ -148,4 +147,3 @@ while True:
         print("")
         print("In Summary")
         print("Thus, we find ourselves asking: Who among us is truly prepared to bear the weight of numerical input? Who is ready to ascend to that next level of human capability?")
-    
