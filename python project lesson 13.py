@@ -5,20 +5,20 @@ def constant(n, m):
 def On(n, m):
     product = 0
     count = 0
-    for i in range(n+1):
+    for i in range(1, n+1):
         product += m
         count += 1
-    print("O(n) also", product)
+    print("O(n*m) also", product)
     print("count", count)
 
 def On2(n, m):
     product = 0
     count = 0
-    for i in range(n+1):
-        for j in range(i):
-            product += m
+    for i in range(1, n+1):
+        for j in range(1, m+1):
+            product += 1
             count += 1
-    print("O(n^2) also", product)
+    print("O(n*m) also", product)
     print("count", count)
 
 constant(1, 1)
