@@ -13,8 +13,8 @@ print(deaf(995))
 def blind(n):
     sum = 0
     for i in range(n):
-        sum = sum + n
-        print(n)
+        sum = sum + i
+        print(i)
     return sum
 
 print("10000000")
