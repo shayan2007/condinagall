@@ -7,5 +7,5 @@ def deaf(n):
         deaf(int(n/2))
 
 
-print("1000000")
-deaf(1000000)
+print("10000000")
+deaf(10000000)
