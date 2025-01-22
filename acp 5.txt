@@ -1,2 +1,2 @@
 function1 is constant
-function2 is O(n)
+function2 is n
