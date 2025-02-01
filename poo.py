@@ -16,3 +16,4 @@ for i in range(len(list_of_numero)):
 
 print("x:", x)
 print("y:", y)
+
