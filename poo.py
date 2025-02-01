@@ -1,9 +1,4 @@
 list_of_numero = [1, 1, 2, 4, 4, 4, 4]
-thing = 0
-for i in range(len(list_of_numero)):
-    thing = list_of_numero[i]^thing
-print(thing)
-
 for i in range(len(list_of_numero)):
     occ = 0
     for e in range(len(list_of_numero)):
