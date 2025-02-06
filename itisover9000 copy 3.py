@@ -1,6 +1,6 @@
 n = abs(int(float(input("enter a number: "))))
 
-count = 0
+count = 1
 flag = True
 while (flag):
     temp = n >> 1
