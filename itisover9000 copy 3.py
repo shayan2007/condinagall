@@ -1,10 +1,14 @@
 n = abs(int(float(input("enter a number: "))))
 
 count = 0
-
-while (n):
-    n = n >> 1
-    if n > 0:
+flag = True
+while (flag):
+    temp = n >> 1
+    temp2 = temp << 1
+    if temp2 == n:
         count = count + 1
+        n = temp
+    else:
+        flag = False
 
 print("bit at:", count)
