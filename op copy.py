@@ -14,4 +14,3 @@ while (n1 > 0 or n2 > 0):
     n2>>=1
 
 print(flop)
-print(n1)
