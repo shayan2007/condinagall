@@ -1,6 +1,6 @@
 import math
-n1 = 7
-n2 = 2000
+n1 = 10
+n2 = 14
 
 
 flop = 0
